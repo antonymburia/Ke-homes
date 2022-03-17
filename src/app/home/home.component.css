@@ -1,0 +1,9 @@
+.container{
+ background-image: url('src/assets/images/marble.jpg');
+}
+.about{
+ text-align: justify;
+}
+.card{
+ margin: 2% 2% 2% 1%;
+}
