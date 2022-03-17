@@ -1,0 +1,8 @@
+.container{
+ background-image: url('src/assets/images/marble.jpg');
+ line-height: 2;
+}
+.form-group{
+ margin: 2%;
+
+}

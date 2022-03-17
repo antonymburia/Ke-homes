@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PostHouseComponent } from './post-house/post-house.component';
+// import { LoginComponent } from './login/login.component';
 
 
 
@@ -19,6 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     ProfileComponent,
     NavbarComponent,
+    PostHouseComponent
+    // LoginComponent,
     
   ],
   imports: [

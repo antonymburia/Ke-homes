@@ -6,7 +6,6 @@ export class User {
  login: any;
 
  constructor(username: string, role: string, email:string, login: any, created_at: Date,) {
-  
   this.username = username;
   this.role = role;
   this.created_at = created_at;
