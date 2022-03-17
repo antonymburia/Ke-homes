@@ -7,8 +7,10 @@ import { ListingsComponent } from './listings/listings.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { RegisterUserComponent } from './register-user/register-user.component';
-import { SignupComponent } from './signup/signup.component';
+
+import { signupComponent } from './signup/signup.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import { LoginComponent } from './login/login.component'
 
 @NgModule({
   declarations: [
@@ -17,14 +19,16 @@ import { SignupComponent } from './signup/signup.component';
     HomeComponent,
     ProfileComponent,
     NavbarComponent,
-    RegisterUserComponent,
-    SignupComponent
+    signupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+ }
