@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GetHouseService } from '../services/get-house.service';
 
 @Component({
   selector: 'app-listings',

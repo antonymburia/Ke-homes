@@ -1,1 +1,216 @@
-<app-navbar></app-navbar>
+<body>
+
+  <div class="bg">
+    <img src="" alt="">
+  </div>
+
+
+  <div class="container">
+    <div class="row" *ngif='let house in houses'>
+      <div class="repos">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6">
+            <div class="card">
+              <div class="card-header">
+                <div class="row">
+                  <div class="col"></div>
+                  <div class="col">
+                    <div class="name">
+                      <h2>{{house.location}}</h2>
+                    </div>
+                  </div>
+                  <div class="col"></div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col"></div>
+                  <div class="col-6">
+                    <div class="content">
+                      <div class="desc">{{house.description}}</div>
+                    </div>
+                  </div>
+                  <div class="col"></div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <div class="forks">
+                  <b><i class="fas fa-code-branch"></i>Forks &nbsp; Ksh {{house.price}}</b>
+                </div>
+                
+                  <a href="#">
+                    <button class="btn btn-primary">view</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+
+
+
+
+    <span class="av" id="listing">
+      <h2>AVAILABLE HOUSES FOR RENT</h2>
+      <p>Browse a list of featured houses</p>
+    </span>
+    <div class="row">
+
+      <div class="col">
+        <div class="card">
+          <div class="card-header"></div>
+          <div class="card-body">
+            <img src="/assets/images/apart.jpeg" style="height: 300px;" width="100%" alt="">
+          </div>
+          <div class="card-footer">
+            <div class="description">
+              a short house description. <br>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>QA Appartments KSH 20,000</b>
+              </div>
+              <div class="col">
+                
+                  <a  class="btn btn-primary" routerLink="/listings">View House</a>
+             
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-header"></div>
+          <div class="card-body">
+            <img src="assets/images/kwetu hostel.jpeg" style="height: 300px;" width="100%" alt="">
+          </div>
+          <div class="card-footer">
+            <div class="description">
+              a short house description. <br>
+            </div>
+            <div class="row">
+              <div class="col">
+                
+                <b>QA Appartments KSH 30,000</b>
+              </div>
+              <div class="col">
+                <button class="btn btn-primary">View House</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-header"></div>
+          <div class="card-body">
+            <img src="/assets/images/bk h.jpg" style="height: 300px;" width="100%" alt="">
+          </div>
+          <div class="card-footer">
+            <div class="description">
+              a short house description. <br>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>QA Appartments KSH 40,000</b>
+              </div>
+              <div class="col">
+                
+                <button class="btn btn-primary" >View House</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col">
+        <div class="card">
+          <div class="card-header"></div>
+          <div class="card-body">
+            <img src="/assets/images/bk h.jpg" style="height: 300px;" width="100%" alt="">
+          </div>
+          <div class="card-footer">
+            <div class="description">
+              a short house description. <br>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>QA Appartments KSH 50,000</b>
+              </div>
+              <div class="col">
+                <button class="btn btn-primary">View House</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-header"></div>
+          <div class="card-body">
+            <img src="/assets/images/htel.jpg" style="height: 300px;" width="100%" alt="">
+          </div>
+          <div class="card-footer">
+            <div class="description">
+              a short house description. <br>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>QA Appartments</b>
+              </div>
+              <div class="col">
+                <button class="btn btn-primary">View House</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-header"></div>
+          <div class="card-body">
+            <img src="/assets/images/apart.jpeg" style="height: 300px;" width="100%" alt="">
+          </div>
+          <div class="card-footer">
+            <div class="description">
+              a short house description. <br>
+            </div>
+            <div class="row">
+              <div class="col">
+                <b>QA Appartments</b>
+              </div>
+              <div class="col">
+                <button class="btn btn-primary">View House</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="About">
+      <h1>ABOUT US</h1>
+      <p>Ready to fall in love with your dream home? Home-ke is a property agent firm mainly dealing with helping
+        clients
+        find homes within Nairobi, have apartments,massionates,one bedrooms and hostels choice at affordable
+        rates. values are founded on a unique recipe for success that has been achieved since the company was
+        founded
+        in 2022. these principles that serve as a guiding compass for the organisation as a whole and a true
+        north
+        for each individual who carries and represents the home-ke Properties brand.<br> The practice of these standards
+        has governed who we are and how we conduct our business.</p>
+    </div>
+  </div>
+</body>

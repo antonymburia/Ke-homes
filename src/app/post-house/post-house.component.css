@@ -1,9 +1,8 @@
 .container{
  background-image: url('src/assets/images/marble.jpg');
+ line-height: 2;
 }
-.about{
- text-align: justify;
-}
-.card{
- margin: 2% 2% 2% 1%;
+.form-group{
+ margin: 2%;
+
 }

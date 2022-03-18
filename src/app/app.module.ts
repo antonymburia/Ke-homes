@@ -7,6 +7,12 @@ import { ListingsComponent } from './listings/listings.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PostHouseComponent } from './post-house/post-house.component';
+// import { LoginComponent } from './login/login.component';
+
+
+
 
 import { signupComponent } from './signup/signup.component';
 import {ReactiveFormsModule} from '@angular/forms';
@@ -19,13 +25,23 @@ import { LoginComponent } from './login/login.component'
     HomeComponent,
     ProfileComponent,
     NavbarComponent,
+
     signupComponent,
     LoginComponent
+
+    PostHouseComponent
+    // LoginComponent,
+    
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
     ReactiveFormsModule
+
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,32 +1,7 @@
-
-<div id="appContainer">
-    <div class="row align-items-center h-100">
-      <div class="col-md-5 col-sm-10 mx-auto">
-  
-        <div id="cardStyle" class="card justify-content-center">
-          <div>
-            <button class="btn" [class.btn-light]="!flag" type="button" style="width: 50%;" (click)="apply('sign-up')" >Sign Up</button>
-            <button class="btn" [class.btn-light]="flag" type="button" style="width: 50%;" (click)="apply('login')" >Login</button>
-          
-          </div>
-  
-          <div class="card-body">
-            <div *ngIf="!flag">
-                <app-signup></app-signup>
-  
-            </div>
-            <div *ngIf="flag">
-              <app-login></app-login>
-  
-            </div>
-  
-          </div>
-  
-        </div>
-  
-      </div>
-  
-    </div>
-  </div>
+<app-navbar></app-navbar>
 <app-home></app-home>
+
+
+<router-outlet></router-outlet>
+
 
