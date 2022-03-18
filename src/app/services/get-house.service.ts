@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class GetHouseService {
-  api_url = ''
+  api_url = 'https://ke-homes.herokuapp.com/'
   
 
   constructor(public http: HttpClient) { }

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { resourceLimits } from 'worker_threads';
 import { House } from '../classes/house';
 import { GetHouseService } from '../services/get-house.service';
 
