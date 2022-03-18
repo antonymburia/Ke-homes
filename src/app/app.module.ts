@@ -14,6 +14,10 @@ import { PostHouseComponent } from './post-house/post-house.component';
 
 
 
+import { signupComponent } from './signup/signup.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import { LoginComponent } from './login/login.component'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,16 +25,26 @@ import { PostHouseComponent } from './post-house/post-house.component';
     HomeComponent,
     ProfileComponent,
     NavbarComponent,
+
+    signupComponent,
+    LoginComponent
+
     PostHouseComponent
     // LoginComponent,
     
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
+    ReactiveFormsModule
+
     HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+ }

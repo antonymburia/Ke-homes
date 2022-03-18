@@ -1,0 +1,11 @@
+#appContainer{
+    height: 890px;
+    width: 100%;
+   /* background-color:rgb(219, 214, 214) ; */
+  background-image: url(../assets/images/marble.jpg);
+}
+
+#cardStyle{
+    background-color: rgb(190, 197, 201);
+    box-shadow: 5px 3px 10px 5px gray;
+}
