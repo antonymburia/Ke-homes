@@ -1,13 +1,13 @@
 
 <div id="appContainer">
     <div class="row align-items-center h-100">
-      <div class="col-md-8 col-sm-14 mx-auto">
+      <div class="col-md-5 col-sm-10 mx-auto">
   
         <div id="cardStyle" class="card justify-content-center">
           <div>
             <button class="btn" [class.btn-light]="!flag" type="button" style="width: 50%;" (click)="apply('sign-up')" >Sign Up</button>
             <button class="btn" [class.btn-light]="flag" type="button" style="width: 50%;" (click)="apply('login')" >Login</button>
-           
+          
           </div>
   
           <div class="card-body">
@@ -28,3 +28,5 @@
   
     </div>
   </div>
+<app-home></app-home>
+

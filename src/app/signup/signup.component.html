@@ -1,26 +1,26 @@
 <div class="container-fluid">
   <div class="row">
-      <div class="col-16">
+      <div class="col-15">
           <form [formGroup]="signupForm" (ngSubmit)="signup()">
 
               <div class="form-group">
                   <label for="name" class="fa fa-user"></label>
-                  <input type="text" placeholder="Enter Your Name" formControlName="name" [(ngModel)]="username" name="name">
+                  <input type="text" placeholder="Enter Your Name" formControlName="name" >
                   <span class="text-danger" *ngIf="signupForm.controls.name.errors && signupForm.controls.name.touched">
                       <br>Name is Required
                   </span>
                 </div>
               <div class="form-group">
-                  <label for="email" class="fa fa-envelope"></label>
-                  <input type="email" placeholder="Email Address" formControlName="email"  [(ngModel)]="email" name="email" >
+                 <label for="email" class="fa fa-envelope"></label>
+              <input type="email" placeholder="Email Address" formControlName="email"  >
                   <span class="text-danger" *ngIf="signupForm.controls.email.errors && signupForm.controls.email.touched">
-                      <br>Invalid Email Address
-                  </span>
-              </div>
+                    <br>Invalid Email Address
+                </span>
+            </div>
 
               <div class="form-group">
                   <label for="password" class="fa fa-lock"></label>
-                  <input type="password" placeholder="Password" formControlName="password"  [(ngModel)]="password" name="password" >
+                  <input type="password" placeholder="Password" formControlName="password"   >
                   <span class="text-danger" *ngIf="signupForm.controls.password.errors && signupForm.controls.password.touched">
                       <br>Atleast 6 character Password is Required
                   </span>
